@@ -293,7 +293,7 @@ switch ($selection3)
 			Write-Host "*****************************************************" -ForegroundColor Yellow -BackgroundColor Black
 			Write-Host "NOTE!" -ForegroundColor Yellow -BackgroundColor Black
 			Write-Host "The following information are needed in the CSV file:" -ForegroundColor White -BackgroundColor black
-			Write-Host '"UserPrincipalName","DisplayName",PolicyName“' -ForegroundColor Gray -BackgroundColor Black
+			Write-Host '"UserPrincipalName","DisplayName","PolicyName“' -ForegroundColor Gray -BackgroundColor Black
 			Write-Host "*****************************************************" -ForegroundColor Yellow -BackgroundColor Black
 			Start-Sleep -s 6
 			$File = New-Object System.Windows.Forms.OpenFileDialog
